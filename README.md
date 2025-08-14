@@ -9,19 +9,8 @@ A web application that helps users navigate campus by finding the shortest walki
 2. Run: `java -cp ".:junit5.jar" WebApp 8888` (Mac/Linux) or `java -cp ".;junit5.jar" WebApp 8888` (Windows)
 3. Open: http://localhost:8888
 
-## Makefile Commands (Designed for Max/Linux
+## Makefile Commands (Designed for Max/Linux)
 
 - `make startServer` - Compile and start the web server on port 8888
 - `make runAllTests` - Compile and run all JUnit tests  
 - `make clean` - Remove compiled class files
-
-## Troubleshooting
-
-If you get "Address already in use":
-```bash
-lsof -i :8888
-```
-
-```bash
-kill <PID>
-```
