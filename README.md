@@ -99,7 +99,7 @@ Kill the process (replace `<PID>` with actual process ID):
 taskkill /PID <PID> /F
 ```
 
-## Makefile Commands (Designed for Max/Linux)
+## Makefile Commands (Designed for Mac/Linux)
 
 - `make startServer` - Compile and start the web server on port 8888
 - `make runAllTests` - Compile and run all JUnit tests  
